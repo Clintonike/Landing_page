@@ -1,0 +1,28 @@
+$primary-color: #615cfd;
+$white-color: #fff;
+  
+  // @function set-text-color ($color) {
+  //   @if (lightness ($color) > 50) {
+  //     @return #000;
+  //   } @else {
+  //     @return #fff;
+  //   }
+  // }
+
+
+
+  .btn{
+    background: $primary-color;
+      color: $white-color;
+      font-weight: 400;
+      padding: 12px 33px;
+      width: 13vw;
+      text-align: center;
+      border-radius: 50px;
+
+      &:hover{
+        background: transparent;
+        border: $primary-color 1.5px solid;
+        color: #fff;
+      }
+  }
